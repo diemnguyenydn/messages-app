@@ -1,0 +1,44 @@
+.user-item{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+    .user-avt{
+        width: 30px;
+        height: 30px;
+        overflow: hidden;
+        border-radius: 50%;
+        img{
+            width: 100%;
+        }
+    }
+    .user-info{
+        width: calc(100% - 30px);
+        padding-left: 15px;
+        h3{
+            font-weight: bold;
+            margin: 0;
+        }
+        p{
+            color: #ccc;
+            width: 100%;
+            margin: 0;
+            font-size: 14px;
+            overflow: hidden;
+            span{
+                float: right;
+                font-style: italic;
+                font-weight: bold;
+                font-size: 13px;
+                margin-right: 5px;
+            }
+        }
+    }
+}
+.active{
+    background: rgb(39, 133, 75);
+    cursor: default;
+}
